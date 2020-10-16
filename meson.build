@@ -59,7 +59,7 @@ install_data(
     install_dir: join_paths(datadir, PROJECT_NAME)
 )
 
-# Install our .desktop file so the Applications Menu will see it
+# Install our .desktop file
 install_data(
     join_paths('data', meson.project_name() + '.desktop'),
     install_dir: join_paths(datadir, 'applications')
