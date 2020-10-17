@@ -1,8 +1,11 @@
 # PiBright
-Brightness control for Raspberry Pi.
+Brightness control for Raspberry Pi. Also can control RGB values for display output.
 
 ## Building, Testing, and Installation
+Download the repo:
 
+    git clone https://github.com/krishenriksen/pibright/
+    
 Run `meson build` to configure the build environment:
 
     meson --prefix=/usr/local -Dbuildtype=release build
@@ -17,3 +20,5 @@ To build pib, use `ninja`:
 To install, use `ninja install`
 
     sudo ninja install
+    
+To use the app, just go into your application menu and find `PiBright`
