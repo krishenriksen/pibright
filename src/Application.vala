@@ -50,7 +50,7 @@ public class PiBrightAdjustWindow : Gtk.ApplicationWindow {
 		this.red_slider = new Scale.with_range (Orientation.VERTICAL, 0, 255, 1);
 		this.green_slider = new Scale.with_range (Orientation.VERTICAL, 0, 255, 1);
 		this.blue_slider = new Scale.with_range (Orientation.VERTICAL, 0, 255, 1);
-		this.brightness_slider = new Scale.with_range (Orientation.VERTICAL, 0, 100, 1);
+		this.brightness_slider = new Scale.with_range (Orientation.VERTICAL, 5, 100, 1);
 		brightness_slider.inverted = true;
 
 		// container box
