@@ -168,10 +168,12 @@ public class PiBrightWindow : Gtk.ApplicationWindow {
 
 		this.input_shape_combine_region (window_region);
 
+		/*
 		if (!this.get_screen ().is_composited()) {
         	base.destroy();
         	Gtk.main_quit();
 		}
+		*/
 	}
 
 	private Region create_region_from_widget (Widget widget) {

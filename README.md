@@ -23,3 +23,5 @@ To build pib, use `ninja`:
 To install, use `ninja install`
 
     sudo ninja install
+
+`Note` compositing has to be enabled
