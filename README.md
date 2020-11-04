@@ -6,7 +6,7 @@ Brightness control for Raspberry Pi.
 You'll need the following dependencies:
 
 ```
-$ sudo apt install meson ninja-build libgee-0.8-dev libgnome-menu-3-dev cdbs valac libvala-*-dev libglib2.0-dev libwnck-3-dev libgtk-3-dev python3 python3-wheel python3-setuptools
+$ sudo apt install meson ninja-build valac libvala-0.42-dev libgtk-3-dev
 ```
 
 Run `meson build` to configure the build environment:
